@@ -1,0 +1,22 @@
+html, body {
+	height: 100%;
+}
+
+body{
+	background-color: rgb(58, 58, 58);
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.salary-table {
+	margin: 10px;
+}

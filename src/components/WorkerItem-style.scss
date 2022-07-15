@@ -1,0 +1,40 @@
+.worker-item {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	font-size: 20px;
+	overflow: hidden;
+	&:first-child{
+		margin-top: 10px;
+	}
+}
+
+.worker-item-cell {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	border: 1px solid white;
+	overflow-x: scroll;
+	&::-webkit-scrollbar{
+		display: none;
+	}
+}
+
+.inp {
+	max-width: 100px;
+	padding: 0 5px;
+	border: none;
+	background: none;
+	outline: none;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+.salary-span{
+	margin-left: 10px;
+	overflow-x: scroll;
+	&::-webkit-scrollbar{
+		display: none;
+	}
+}
